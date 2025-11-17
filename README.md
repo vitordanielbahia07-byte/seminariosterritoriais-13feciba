@@ -60,6 +60,22 @@ O objetivo é demonstrar a integração entre **sistemas de reconhecimento facia
 
 ---
 
+### 5. `senhaLCD.ino`
+- **Função:** Controla a posição de um **servo motor** usando um **teclado matricial 4x4** e exibe a tecla pressionada em um **LCD 16x2**, sem uso de bibliotecas externas.  
+- **Características:**
+  - Implementa controle manual do LCD em **modo 4-bit** (funções próprias para enviar comandos e dados).  
+  - Varredura manual do teclado matricial para identificar teclas pressionadas.  
+  - Mapeamento de teclas para posições específicas do servo:
+    - `1` → 0°  
+    - `2` → 45°  
+    - `3` → 90°  
+    - `4` → 180°  
+  - Movimento suave do servo implementado via **rampa de PWM manual** (sem `Servo.h`).  
+  - Exibe no LCD a tecla pressionada e a posição correspondente do servo.  
+- **Aplicação:** Demonstração de interface homem-máquina (IHM), permitindo controle direto do servo via teclado e feedback visual no LCD.
+
+---
+
 ## 📊 Fluxograma da Máquina de Estados
 
 ```text
