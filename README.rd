@@ -115,9 +115,10 @@ Nos Seminários Territoriais da FECIBA, este protótipo exemplifica aplicações
 ## 👥 Créditos
 Projeto desenvolvido para os **Seminários Territoriais FECIBA 2025 - 13ª edição**.  
 Equipe responsável: Daniel Bahia Cruz de Deus e Isabel Fernandes Conceição
-Orientadores: Prof° Gilberto Monteiro e Prof° Lucas Freitas 
-Colégio Estadual de Aplicação Anísio Teixeira
-Instituto Anísio Teixeira
-.
-```
 
+Orientadores: Prof° Gilberto Monteiro e Prof° Lucas Freitas 
+
+Colégio Estadual de Aplicação Anísio Teixeira
+
+Instituto Anísio Teixeira
+```
